@@ -1,6 +1,9 @@
 /**
  * Agent loop that works with AgentMessage throughout.
  * Transforms to Message[] only at the LLM call boundary.
+ *
+ * 在整个过程中与 AgentMessage 共同工作的agent loop.
+ * 仅在 LLM 调用边界处转换为 Message[].
  */
 
 import {
